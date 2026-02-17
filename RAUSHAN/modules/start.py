@@ -5,11 +5,11 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_BUTTON = [
     [
-        Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
+        Button.inline("ʜєʟᴘ ᴧηᴅ ᴄσϻϻᴧηᴅ", data="help_back")
     ],
     [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/WORLD_ALPHA"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/+Q25anL0Ckuk5NzM1")
+        Button.url("υᴘᴅᴀᴛᴇ", "https://t.me/HeadquarterSmg"),
+        Button.url("sυᴘᴘσʀᴛ", "https://t.me/SUPP0RT_SMG")
     ],
     [
         Button.url("• ʀᴇᴘᴏ •", "https://github.com/TEAMPURVI/ALPHA_SPAM")
@@ -34,7 +34,7 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ᴀʟᴘʜᴀ](https://t.me/ll_ALPHA_BABY_lll)**\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝐎 ʏ ɢ ᴇ ɴ](https://t.me/Oxygen_smg)**\n\n"
         TEXT += f"» **xʙᴏᴛꜱ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
