@@ -7,11 +7,11 @@ HELP_STRING = f"★ 𝐒 ᴍ ɢ 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 ★\n\n» **�
 
 HELP_BUTTON = [
     [
-      Button.inline("• ꜱᴘᴀᴍ •", data="spam"),
-      Button.inline("• ʀᴀɪᴅ •", data="raid")
+      Button.inline("𝐒ᴘᴀᴍ", data="spam"),
+      Button.inline("𝐑ᴀɪᴅ", data="raid")
     ],
     [
-      Button.inline("• ᴇxᴛʀᴀ •", data="extra")
+      Button.inline("𝐄xᴛʀᴀ", data="extra")
     ],
     [
       Button.url("υᴘᴅᴀᴛᴇ", "https://t.me/HeadquarterSmg"),
@@ -34,7 +34,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://telegra.ph/file/c53d9a7df9dbaa5f4db05.jpg",
+              "https://files.catbox.moe/ilusmi.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -129,11 +129,11 @@ async def helpback(event):
             HELP_STRING,
             buttons=[
               [
-                Button.inline("• ꜱᴘᴀᴍ •", data="spam"),
-                Button.inline("• ʀᴀɪᴅ •", data="raid")
+                Button.inline("𝐒ᴘᴀᴍ", data="spam"),
+                Button.inline("𝐑ᴀɪᴅ", data="raid")
               ],
               [
-                Button.inline("• ᴇxᴛʀᴀ •", data="extra")
+                Button.inline("𝐄xᴛʀᴀ", data="extra")
               ],
               [
                 Button.url("υᴘᴅᴀᴛᴇ", "https://t.me/HeadquarterSmg"),
