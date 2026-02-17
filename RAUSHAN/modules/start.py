@@ -12,7 +12,7 @@ START_BUTTON = [
         Button.url("sυᴘᴘσʀᴛ", "https://t.me/SUPP0RT_SMG")
     ],
     [
-        Button.url("𝐌ᴜꜱɪᴄ ʙᴏᴛ", "https://github.com/TEAMPURVI/ALPHA_SPAM")
+        Button.url("𝐌ᴜꜱɪᴄ ʙᴏᴛ", "https://t.me/AestheticTunesBot")
     ]
 ]
 
@@ -40,7 +40,7 @@ async def start(event):
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://telegra.ph/file/e484dc030e63494789be5.jpg",
+                    "https://files.catbox.moe/ilusmi.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
